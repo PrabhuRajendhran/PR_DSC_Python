@@ -1,0 +1,8 @@
+Python docs
+Github
+
+Jupyter notebooks ::
+
+in[*] -> Process running in background
+in[1] -> Running sequence = 1
+in[2] -> Running sequence = 2

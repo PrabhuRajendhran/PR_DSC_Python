@@ -1,0 +1,46 @@
+DocString : First line after the function definition 
+
+def add(a,b) :
+	''' hi''' --> DocString
+	return a+b
+
+print(add.__doc__)
+
+Console : hi
+
+
+import keyword
+keyword.kwlist -> gives list of all keywords
+
+Python allows you to change the value of constant, But, Not a good practise.
+
+Constant -> To be in Capital Letter (e.g. MAX_NUM)
+
+Class Dog : 
+	def __init__(self) : 
+		self.eyes = 2
+		self.ears = 2
+		self.tongue = 1
+		self.tail = 1
+		self.legs = 4
+
+	def see():
+		print("Seeing")
+	def hear():
+		print("Hearing")
+	def wave():
+		print("Waving Tail")
+	def walk():
+		print("Walk")
+
+d1 = Dog()
+d2 = Dog()
+d3 = Dog()
+
+Class AnotherDog(Dog) :
+	def walk():
+		print ("Cant Walk, Only Run")
+d4 = AnotherDog()
+
+d1.walk()
+d4.walk()

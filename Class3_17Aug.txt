@@ -1,0 +1,29 @@
+Operator : 
+
+Unary (single operand) & Binary (Two operand)
+No Ternary operators in python
+
+x=10
+x=-x
+
+x = 10 + 5
+
+a/b = result (in double)
+10/2 = 5.0
+a//b = result (in int -> after decimal , will be truncated)
+10//2 = 5
+11/2 = 5
+5//2.0 = 2.0 (as b is decimal)
+
+print(10,20,30,end='#',sep='\n')
+
+print(end='#',sep='\n',10,20,30)  -> error : positional arg cant follow keyword arg.
+
+x=input("Enter a number :")
+print (x)
+
+Enter a number : 10
+
+x = 10
+type(x) = str
+repr(x) = '10'  --> Representation
