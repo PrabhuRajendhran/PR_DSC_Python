@@ -1,0 +1,5 @@
+https://pad.ouvaton.coop/dsc_gaurav_7
+
+id() -> Function to retrive memory block of any object
+
+dir()
